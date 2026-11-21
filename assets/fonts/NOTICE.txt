@@ -1,0 +1,7 @@
+VEWord-Regular.woff and VEWord-Bold.woff are a subset of Gentium Book Plus Regular and Bold
+(Version 6.101),
+Copyright (c) 2003-2022 SIL International, under the SIL Open Font License 1.1 (OFL.txt, beside this file).
+
+They are renamed "VE Word" because the licence reserves the original names for unmodified copies.
+Changes: the characters are limited to Latin, the IPA blocks and the marks this site shows;
+hinting is removed; the files are packed as WOFF. Made by tools/site/tools/subset_fonts.py.

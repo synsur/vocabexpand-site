@@ -195,6 +195,10 @@ button { font: inherit; color: inherit; }
 .perf-foot { display: grid; gap: 8px 40px; align-items: end; width: 100%; margin-top: 4px; padding-top: 22px; border-top: 1px solid var(--line); }
 @media (min-width: 800px) { .perf-foot { grid-template-columns: minmax(0, 1fr) auto; } }
 .perform .hook { font: 400 clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem)/1.36 var(--word); max-width: 38ch; text-wrap: pretty; }
+.perf-text { display: grid; gap: 0; min-width: 0; }
+.perform .means-h { font: 700 0.6875rem/1.2 var(--talk); letter-spacing: 0.08em; text-transform: uppercase; color: var(--dim); }
+.perform .means { margin-top: 8px; font: 400 clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem)/1.36 var(--word); max-width: 38ch; text-wrap: pretty; }
+.perform .means + .hook { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); max-width: 38ch; }
 .perform .note { max-width: 72ch; }
 .perform .empty { font: 400 clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem)/1.36 var(--word); max-width: 30ch; }
 @media (prefers-reduced-motion: no-preference) {
